@@ -79,7 +79,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 100%;
   filter: hue-rotate(325deg);
-  animation: colorshift 5s infinite;
+  animation: colorshift 30s infinite;
   
 }
 
