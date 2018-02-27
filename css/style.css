@@ -1,0 +1,137 @@
+:root {
+  --main-background: #36393e;
+  --alternate-background-a: #2f3136;
+  --alternate-background-b: #282b30;
+  --border-main: #3e4146;
+  --text-color-main: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+h4, p {
+  color: var(--text-color-main)
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+h3 {
+  line-height: 0;
+}
+
+#staff{
+  width: 75%;
+  margin: auto;
+  
+}
+#staff tr:nth-child(even){background-color: var(--alternate-background-a);}
+#staff tr:nth-child(odd){background-color: var(--alternate-background-b);}
+
+#rules {
+  border-right: 3px solid var(--border-main)
+}
+
+#staffListing {
+  border-left: 2px solid var(--border-main);
+  height: 40vh;
+  color: var(--text-color-main);
+}
+
+#centerTitle {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+  background-color: rgba(0,0,0,0.1);
+  max-width: 50vh;
+  padding: 1vh;
+}
+
+
+
+#title {
+  line-height: 40px;
+}
+
+#descriptionShort {
+  margin-bottom: 12px;
+}
+
+#intro {
+  margin: 0;
+  width: 100%;
+  height: 69vh;
+  padding-top: 21vh;
+  background-image: url('https://svgshare.com/i/5fh.svg');
+}
+
+
+
+
+
+#stats {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--main-background);
+  table-layout: fixed;
+  color: #DCDCDC;
+  border-top: 2px solid var(--alternate-background);
+  border-bottom: 2px solid var(--border-main);
+}
+
+.stat {
+  text-align: center;
+  width: calc(50% - 3px);
+  line-height: 12px;
+}
+
+.dividerCell {
+  width: 3px;
+}
+
+.divider {
+  height: 80%;
+  background-color: var(--border-main);
+  border-radius: 80px;
+}
+
+#buttonStyleA {
+  color: white;
+  text-decoration: none;
+  border: 1.5px solid white;
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+#discordDesc {
+  margin: auto;
+}
+
+#footer {
+  padding: 15px 0 40px 0;
+  background-color: var(--alternate-background-b);
+}
+
+#footer a {
+  float: right;
+  margin-right: 10px;
+}
+
+#flexboxContainer {
+	display: flex;
+}
+
+#flexboxContainer  div {
+	background-color: var(--main-background);
+	width: 50%;
+	text-align: center;
+	padding-top: 10px;
+}
