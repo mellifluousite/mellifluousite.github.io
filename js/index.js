@@ -24,3 +24,5 @@ for (var i=0; i<getHumans(discordData).length; i++) {
       document.getElementById(getHumans(discordData)[i].id).innerHTML = "Online";
   }
 }
+
+window.customElements.define('flex-item', class extends HTMLElement {...});
