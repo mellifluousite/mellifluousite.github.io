@@ -6,6 +6,13 @@
   --text-color-main: #eeeeee;
 }
 
+@keyframes colorshift {
+  0%   { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(365deg); }
+  100% {filter: hue-rotate(0deg);}
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +62,6 @@ h3 {
   filter: hue-rotate(45deg)
 }
 
-
 #title {
   line-height: 40px;
 }
@@ -73,12 +79,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: 100%;
   filter: hue-rotate(325deg);
+  animation: colorshift 5s infinite;
   
 }
-
-
-
-
 
 #stats {
   width: 100%;
