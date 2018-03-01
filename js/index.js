@@ -1,5 +1,9 @@
+//List of discord mods
 var mods = ["277582380406145024", "288785195702812673", "284447796323418113", "294425180938305538"]
-
+//Create custom elements for flexbox container
+window.customElements.define('f-item', class extends HTMLElement {});
+window.customElements.define('f-margin', class extends HTMLElement {});
+window.customElements.define('f-divider', class extends HTMLElement {});
 
 var xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", "https://discordapp.com/api/guilds/410243567827681290/widget.json", false );
