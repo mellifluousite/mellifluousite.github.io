@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Mellifluous</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Lato" rel="stylesheet">
+  <title>Mellifluous</title> 
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  
   <div id="intro">
-    
     <div id="centerTitle">
       <h1 id="title">Mellifluous</h1>
       <h4>
@@ -20,24 +17,30 @@
       <p id="descriptionShort">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
       </p>
-      
     </div>
     <div id="topBackground"></div>
   </div>
   <table id="stats"><tr>
-    <td class="stat"><h3 id="usersOnline">0</h3><br /><p>Online users</p></td>
+    <td class="stat"><h3 id="usersOnline">Error</h3><br /><p>Online users</p></td>
     <td class="stat"><a href="https://discord.gg/qtqkutz" target="_blank" id="buttonStyleA">Join Now!</a></td>
   </table>
-  <div id="flexboxContainer">
-    <flex-item class="twoColumnC" id="rules">
+  <div id="mainContent">
+    <div class="spacer"></div>
+    <div>
       <h4> Rules </h4>
-      <p id="discordDesc">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-      </p>
-    </flex-item>
-    <flex-item id="staffListing">
+      <ul id="rules">
+        <li>Be kind</li>
+        <li>Use channels only for their intended purpose</li>
+        <li>Respect Others</li>
+        <li>No NSFW content</li>
+        <li>No Spamming</li>
+
+      </ul>
+    </div>
+    <div class="divider-row"></div>
+    <div id="staffListing">
       <h4> Staff </h4>
-      <table id="staff">
+      <table id="staff" class="darkTable">
         <tr>
           <th>Username</th>
           <th>Status</th>
@@ -59,7 +62,41 @@
           <td id="284447796323418113">Offline</td>
         </tr>
       </table>
-	</flex-item>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div>
+      <h4>Bot Commands</h4>
+      <table id="botInfo" class="darkTable">
+        <tr>
+          <th>Bot</th>
+          <th>Prefix</th>
+          <th>Purpose</th>
+          <th>Site</th>
+        </tr>
+        <tr>
+          <td>Rythm</td>
+          <td>!</td>
+          <td>Music</td>
+          <td><a href="https://rythmbot.co/features#list" target="_blank">Here</a></td>
+        </tr>
+        <tr>
+          <td>NotSoBot</td>
+          <td>.</td>
+          <td>Fun</td>
+          <td><a href="https://mods.nyc/help" target="_blank">Here</a></td>
+        </tr>
+        <tr>
+          <td>Tatsumaki</td>
+          <td>t!</td>
+          <td>Levels + Fun </td>
+          <td><a href="https://www.tatsumaki.xyz/commands.html" target="_blank">Here</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="divider-row"></div>
+    <div> </div>
+    <div class="spacer"></div>
   </div>
   <div id="footer">
     <a href="/changelog.html" target="_blank" id="buttonStyleA">Changelog</a>
